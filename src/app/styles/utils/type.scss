@@ -1,0 +1,56 @@
+/*
+    utils: type.scss
+*/
+
+// font-family: 'Bangers', cursive;
+// font-family: 'Poppins', sans-serif;
+
+.type {
+  //font-family
+
+  &--bangers {
+    font-family: "Bangers", cursive;
+  }
+  &--poppins {
+    font-family: "Poppins", sans-serif;
+  }
+
+  //weight
+  &-500 {
+    font-weight: 500;
+  }
+
+  &-400 {
+    font-weight: 400;
+  }
+
+  //size
+  &-240 {
+    font-size: 240px;
+  }
+  &-160 {
+    font-size: 160px;
+  }
+  &-80 {
+    font-size: 80px;
+  }
+  &-32 {
+    font-size: 32px;
+  }
+  &-24 {
+    font-size: 24px;
+  }
+  &-16 {
+    font-size: 16px;
+  }
+
+  //color
+
+  &-white {
+    color: $white;
+  }
+
+  &-black {
+    color: $black;
+  }
+}
