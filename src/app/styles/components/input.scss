@@ -1,0 +1,15 @@
+/*
+    components: input.scss
+*/
+
+.input {
+  border: none;
+  height: 50px;
+  &:focus {
+    outline: none;
+  }
+
+  &--primary {
+    background-color: $blue-d;
+  }
+}
