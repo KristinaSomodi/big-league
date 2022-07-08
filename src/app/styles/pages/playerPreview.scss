@@ -1,3 +1,47 @@
 /*
     pages: playerPreview.scss
 */
+
+.back {
+  display: flex;
+  margin-top: 80px;
+}
+.card {
+  height: 337px;
+  width: 360px;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(90deg, #7afe63 -0.49%, #018bf3 103.4%);
+    height: 400px;
+    width: 400px;
+    border-radius: $border-circle;
+  }
+
+  &__wrap {
+    height: 396px;
+    width: 396px;
+  }
+  &__image {
+    width: 100%;
+    height: 100%;
+    border-radius: $border-circle;
+  }
+  &__flag {
+    width: 120px;
+    height: 120px;
+    border-radius: $border-circle;
+    transform: translateY(-110%) translateX(240%);
+    border: 2px solid $white;
+  }
+  &__about {
+    opacity: 50%;
+  }
+}

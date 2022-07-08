@@ -6,4 +6,9 @@
   background-color: $blue-d;
   width: 255px;
   border-radius: 10px;
+  &__form {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+  }
 }

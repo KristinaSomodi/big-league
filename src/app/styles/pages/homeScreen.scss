@@ -4,4 +4,8 @@
 .wrap {
   display: flex;
   align-self: flex-end;
+  &__btn {
+    display: flex;
+    justify-content: center;
+  }
 }

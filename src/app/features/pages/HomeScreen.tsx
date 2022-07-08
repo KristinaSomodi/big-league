@@ -7,10 +7,10 @@ function HomeScreen() {
       <div className="l">
         <Nav></Nav>
         <div className="l__main">
-          <div className="type--bangers type-400 type-80 type-white mt--80">
+          <div className="type--bangers type-400 type-80 type-white mt--80 flex flex--center">
             FEATURED PLAYERS
           </div>
-          <div className="wrap mr--165 mt--75">
+          <div className="wrap  mt--75">
             <button className="btn btn--secondary btn--s type--poppins type-400 type-16">
               Sort <i className="icon icon--base icon--white icon--sort"></i>
             </button>
@@ -20,6 +20,11 @@ function HomeScreen() {
             </div>
           </div>
           <Card></Card>
+          <div className="wrap__btn">
+            <button className=" btn btn--primary btn--m type--poppins mt--80 mb--242 ">
+              Load More
+            </button>
+          </div>
         </div>
       </div>
     </>

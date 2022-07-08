@@ -12,4 +12,10 @@
   &--primary {
     background-color: $blue-d;
   }
+  &--secondary {
+    background-color: $blue-d;
+    border-radius: 10px;
+    width: 350px;
+    padding: 12px;
+  }
 }

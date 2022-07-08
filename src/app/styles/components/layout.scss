@@ -4,11 +4,13 @@
 
 .l {
   &__main {
-    height: calc(100vh - 80px);
+    padding-left: 165px;
+    padding-right: 165px;
+    min-height: 100vh;
+    height: 100%;
     background-color: $black;
     background-image: url("../../../assets/images/background.png");
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
 }

@@ -1,3 +1,10 @@
 /*
     pages: playerNotFound.scss
 */
+.text {
+  opacity: 50%;
+  &__border {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: $white;
+  }
+}
