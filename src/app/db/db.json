@@ -1,5 +1,67 @@
 {
-  "posts": [{ "id": 1, "title": "json-server", "author": "typicode" }],
-  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
-  "profile": { "name": "typicode" }
+  "players": [
+    {
+      "id": 1,
+      "name": "John",
+      "country": "USA",
+      "nickname": "J",
+      "earnings": 1000
+    },
+    {
+      "id": "b6c67c23-62b5-4b2d-a59d-597ab83b1420",
+      "name": "Tim",
+      "country": "Sweden",
+      "nickname": "TNT",
+      "earnings": 2000
+    },
+    {
+      "id": "d0fb2854-8571-49eb-b943-b42db20131ab",
+      "name": "Anya",
+      "country": "UK",
+      "nickname": "A",
+      "earnings": 3000
+    },
+    {
+      "id": "7c4de230-8b9a-4bce-878e-7d63ad54073c",
+      "name": "gabi",
+      "country": "sweden",
+      "nickname": "g",
+      "earnings": 2888
+    },
+    {
+      "id": "63b8b17c-317d-461d-9d7f-1553079eaeb7",
+      "name": "mary",
+      "country": "sweden",
+      "nickname": "m",
+      "earnings": 1000
+    },
+    {
+      "id": "79689a68-901f-4734-b7bf-fa1023134575",
+      "name": "Anthony",
+      "country": "UK",
+      "nickname": "AA",
+      "earnings": 9777
+    },
+    {
+      "id": "3372916b-ad4f-42e8-9037-a3aa04057869",
+      "name": "Kyle",
+      "country": "USA",
+      "nickname": "K",
+      "earnings": 3000
+    },
+    {
+      "id": "8208799e-792e-4a8c-83de-35ff678883ae",
+      "name": "Dom",
+      "country": "Germany",
+      "nickname": "D",
+      "earnings": 10000
+    },
+    {
+      "id": "acc17bfa-28b9-4caf-b5a9-bd49920ae269",
+      "name": "Unknown",
+      "country": "Unknown",
+      "nickname": "Unknown",
+      "earnings": 0
+    }
+  ]
 }
